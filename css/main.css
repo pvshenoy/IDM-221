@@ -1,22 +1,30 @@
 @font-face {
     font-family: 'ButlerMedium';
-    src: url('/Users/preetishenoy/OneDrive - Drexel University/Term 4/idm 221 repository/graphics/Butler/Butler_Bold.otf')
+    src: url('/Users/preetishenoy/OneDrive - Drexel University/Term 4/idm 221/graphics/Butler/Butler_Bold.otf')
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Users/preetishenoy/Documents/GitHub/IDM-221/graphics/Metropolis-thin.woff2')
 }
 
 .wrapper {
     max-width: 414px;
     margin: 0rem;
     margin-right: 0rem;
+    overflow: hidden;
 }
+
 .body {
     z-index: 0;
 }
 
 .navbar {
     color: white;
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
     top: 1rem;
-    right: 5.2rem;
+    right: .3rem;
     padding: 1rem;
     text-align: right;
     z-index: 1000;
@@ -38,16 +46,20 @@ hr {
     padding: 0rem 0rem;
     border: 0rem 0rem;
     z-index: 1;
-    inline-size: 16rem;
-    font-size: 32px; 
     letter-spacing: 0rem;
     color: #1b264f;
-    overflow-wrap: break-word;
+    font-family: 'butlermedium', sans-serif;
     
 }
 
 h1 {
     font-family: 'ButlerMedium', sans-serif;
+    font-size: 3rem;
+    inline-size: 12rem;
+    padding: 0rem;
+    margin: 0rem;
+    border: 0rem;
+    overflow-wrap: break-word;
 }
 
 .openingpara {
@@ -55,7 +67,7 @@ h1 {
     padding: 0rem 0rem;
     border: 0rem 1rem;
     z-index: 10;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'ButlerMedium', sans-serif;
     font-style: light;
     inline-size: 14rem;
     overflow-wrap: break-word;
@@ -82,7 +94,7 @@ h1 {
     color: #cad0e3;
     font-size: .8rem;
     padding: .7rem .7rem;
-    margin: 4rem 15.5rem;
+    margin: 10.5rem 15.5rem;
     border: none;
     text-align: center; 
     white-space: nowrap;
@@ -130,7 +142,6 @@ h1 {
     background-color: white;
     margin: auto;
     padding: 0rem 0rem;
-    border: 3px solid #1b264f;
     max-width: 23rem;
     z-index: 12;
     font-size: 1.5rem; 
@@ -142,8 +153,7 @@ h1 {
 
 h3 {
     font-family: 'ButlerMedium', sans-serif;
-    margin: auto;
-    padding: 2rem;
+    margin: 0rem;
 
 }
 .exomockup {
@@ -153,6 +163,24 @@ h3 {
     top: 2rem;
     bottom: -50rem;
 }
+
+a:link {
+    color: #576ca8;
+    text-decoration: none;
+    font-family: 'roboto' sans-serif;
+}
+
+a:visited {
+    color: #dd92a0;
+    text-decoration: none;
+    font-family: 'roboto' sans-serif;
+}
+
+a:hover {
+    color:#dd92a0;
+    text-decoration: none;
+    font-family: 'roboto' sans-serif;
+}
 .background {
     position: absolute;
     z-index: -1;
@@ -160,5 +188,5 @@ h3 {
     border: 0rem;
     padding: 0rem;
     left:auto;
-    top: 0px
+    top: 0px;
 }
