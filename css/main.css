@@ -24,7 +24,7 @@
     color: white;
     position: -webkit-sticky;
     position: sticky;
-    top: 1rem;
+    top: 0rem;
     right: .3rem;
     padding: 1rem;
     text-align: right;
@@ -33,7 +33,7 @@
 
 hr {  
     border: .04rem solid #1b264f;
-    margin: 1rem 0rem 0rem 0rem; 
+    margin: 0rem 0rem 0rem 0rem; 
     padding-right: 0rem;
     position: -webkit-sticky;
     position: sticky;
@@ -77,35 +77,32 @@ h1 {
     text-align: center;
     position: relative;
     z-index: 20;
+    border-radius: 20px;
 }
-
-.button1 {border-radius: 20px;}
 
 .button2 {
     background-color: #576ca8;
     color: #cad0e3;
     font-size: .9rem;
     padding: .7rem .7rem;
-    margin: 11.7rem 15.2rem;
+    margin: 13rem 15.2rem;
     border: none;
     text-align: center; 
     white-space: nowrap;
     position: relative;
     z-index: 30;
     font-family: 'Metropolis', sans-serif;
-    
+    border-radius: 20px;
 }
-
-.button2 {border-radius: 20px;}
 
 .transpbox {
     position: absolute;
     z-index: 3;
-    margin: 0rem;
+    margin: 1rem 0rem 0rem 0rem;
     border: 0rem;
     padding: 0rem;
     left:auto;
-    top: 65rem
+    top: 47rem
 }
 
 .mywork {
@@ -116,7 +113,7 @@ h1 {
     font-size: 1.5rem; 
     letter-spacing: 0rem;
     position: absolute;
-    top: 78rem;
+    top: 60rem;
     color: #1b264f;
 }
 
@@ -127,7 +124,7 @@ h1 {
     border: 0rem;
     padding: 0rem;
     left:auto;
-    top: 82rem;
+    top: 64rem;
 }
 
 .exoredesign {
@@ -163,13 +160,13 @@ a:link {
 }
 
 a:visited {
-    color: #1b264f;
+    color: #cad0e3;
     text-decoration: none;
     font-family: 'metropolis' sans-serif;
 }
 
 a:hover {
-    color:#1b264f;
+    color:#cad0e3;
     text-decoration: none;
     font-family: 'metropolis' sans-serif;
 }
