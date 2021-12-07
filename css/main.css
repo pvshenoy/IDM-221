@@ -79,13 +79,26 @@ h1 {
     z-index: 20;
     border-radius: 20px;
 }
-
 .button2 {
     background-color: #576ca8;
     color: #cad0e3;
     font-size: .9rem;
     padding: .7rem .7rem;
-    margin: 13rem 15.2rem;
+    margin: 13rem 15.2rem; 
+    border: none;
+    text-align: center; 
+    white-space: nowrap;
+    position: relative;
+    z-index: 30;
+    font-family: 'Metropolis', sans-serif;
+    border-radius: 20px;
+}
+.button3 {
+    background-color: #576ca8;
+    color: #cad0e3;
+    font-size: .9rem;
+    padding: .7rem .7rem;
+    margin: 2.5rem 1rem; 
     border: none;
     text-align: center; 
     white-space: nowrap;
