@@ -10,6 +10,7 @@
 
 .wrapper {
     max-width: 414px;
+    max-height: 1000px;
     margin: 0rem;
     margin-right: 0rem;
     overflow: hidden;
@@ -32,7 +33,7 @@
 
 hr {  
     border: .04rem solid #1b264f;
-    margin: 1rem 0rem; 
+    margin: 1rem 0rem 0rem 0rem; 
     padding-right: 0rem;
     position: -webkit-sticky;
     position: sticky;
@@ -41,37 +42,29 @@ hr {
     z-index: 999;
 }
 
-.opening {
-    margin: 0rem 1rem;
-    padding: 0rem 0rem;
-    border: 0rem 0rem;
-    z-index: 1;
-    letter-spacing: 0rem;
-    color: #1b264f;
-    
-}
-
 h1 {
     font-family: 'ButlerMedium', sans-serif;
     font-size: 3rem;
     inline-size: 12rem;
     padding: 0rem;
-    margin: 0rem;
+    margin: 1.5rem 0rem 0rem 1rem;
     border: 0rem;
+    line-height: 3rem;
+    color:#1b264f;
+    z-index: 1;
+    
     overflow-wrap: break-word;
 }
 
 .openingpara {
     margin: 0rem 1rem;
     padding: 0rem 0rem;
-    border: 0rem 1rem;
+    border: 0rem 0rem;
     z-index: 10;
     font-family: 'Metropolis', sans-serif;
     font-style: light;
     inline-size: 14rem;
-    overflow-wrap: break-word;
-    
-    
+    overflow-wrap: break-word; 
 }
 
 .button1 {
@@ -93,7 +86,7 @@ h1 {
     color: #cad0e3;
     font-size: .9rem;
     padding: .7rem .7rem;
-    margin: 10.5rem 15.5rem;
+    margin: 11.7rem 15.2rem;
     border: none;
     text-align: center; 
     white-space: nowrap;
@@ -160,25 +153,25 @@ h3 {
     z-index: 13;
     margin: auto;
     top: 2rem;
-    bottom: -50rem;
+    
 }
 
 a:link {
-    color: #576ca8;
+    color: #cad0e3;
     text-decoration: none;
-    font-family: 'roboto' sans-serif;
+    font-family: 'metropolis' sans-serif;
 }
 
 a:visited {
-    color: #dd92a0;
+    color: #1b264f;
     text-decoration: none;
-    font-family: 'roboto' sans-serif;
+    font-family: 'metropolis' sans-serif;
 }
 
 a:hover {
-    color:#dd92a0;
+    color:#1b264f;
     text-decoration: none;
-    font-family: 'roboto' sans-serif;
+    font-family: 'metropolis' sans-serif;
 }
 .background {
     position: absolute;
