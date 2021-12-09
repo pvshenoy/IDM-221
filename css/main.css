@@ -1,3 +1,5 @@
+@import 'css/normalize.css';
+
 @font-face {
     font-family: 'ButlerMedium';
     src: url('/Users/preetishenoy/Documents/GitHub/IDM-221/graphics/Butler/Butler_Bold.otf')
@@ -7,7 +9,7 @@
     font-family: 'Metropolis';
     src: url('/Users/preetishenoy/Documents/GitHub/IDM-221/graphics/Metropolis/Metropolis-ExtraLight.woff2')
 }
-
+/*
 .wrapper {
     max-width: 414px;
     max-height: 1000000px;
@@ -15,13 +17,14 @@
     margin-right: 0rem;
     overflow: hidden;
 }
+*/
 
-
-
+.p {
+    font-family: 'Metropolis' sans-serif;
+}
 .navbar {
     color: white;
-    position: -webkit-sticky;
-    position: sticky;
+    position: relative;
     top: 0rem;
     right: .3rem;
     padding: 1rem;
@@ -135,14 +138,77 @@ h1 {
     left:auto;
     top: 64rem;
 }
-
+/*
 .card {
     position: relative;
     z-index: 40;
-    box-shadow: 0;
+    box-shadow: 1;
     outline: 3px;
-    top: 140rem;
+    top: 18rem;
 }
+*/
+
+.card:hover {
+    box-shadow: 3px;
+}
+
+.cardbg {
+    position: relative;
+    z-index: 40;
+    top:20rem;
+    text-align: center;
+}
+
+.cardbg2 {
+    position: relative;
+    z-index: 41;
+    top: 14.8rem;
+    text-align: center;
+}
+.cardimg {
+    position: absolute;
+    z-index: 50;
+    text-align: center;
+    left: 1.5rem;
+    top: 70rem;
+}
+
+.cardtitle {
+    position: relative;
+    text-align: center;
+    padding: 0rem;
+    top: 2.5rem;
+    font-size: 1.5rem; 
+}
+
+.cardprojecttype {
+    position: relative;
+    text-align: center;
+    padding: 0rem;
+    top: 1rem;
+    font-family: 'Metropolis' sans-serif;
+}
+
+.cardbutton {
+    position: relative;
+    text-align: left;
+    z-index: 42;
+    top: 3rem;
+    left: 5.5rem;
+    font-size: 1.2rem;
+    font-family: 'Metropolis' sans-serif;
+}
+
+.arrowbutton {
+    background-color: #ffffff;
+    position: relative;
+    text-align: right;
+    top: -3.8rem;
+    left: 13rem;
+    border: none;
+    border-radius: none;
+}
+
 h3 {
     font-family: 'ButlerMedium', sans-serif;
     margin: 0rem;
