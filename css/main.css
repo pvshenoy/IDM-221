@@ -10,15 +10,13 @@
 
 .wrapper {
     max-width: 414px;
-    max-height: 1000px;
+    max-height: 1000000px;
     margin: 0rem;
     margin-right: 0rem;
     overflow: hidden;
 }
 
-.body {
-    z-index: 0;
-}
+
 
 .navbar {
     color: white;
@@ -35,15 +33,13 @@ hr {
     border: .04rem solid #1b264f;
     margin: 0rem 0rem 0rem 0rem; 
     padding-right: 0rem;
-    position: -webkit-sticky;
-    position: sticky;
+    position: relative;
     left: 0rem;
     max-width: 26rem;
     z-index: 999;
 }
 
 h1 {
-    font-family: 'ButlerMedium', sans-serif;
     font-size: 3rem;
     inline-size: 12rem;
     padding: 0rem;
@@ -52,8 +48,8 @@ h1 {
     line-height: 3rem;
     color:#1b264f;
     z-index: 1;
-    
     overflow-wrap: break-word;
+    position:relative;
 }
 
 .openingpara {
@@ -140,31 +136,18 @@ h1 {
     top: 64rem;
 }
 
-.exoredesign {
-    background-color: white;
-    margin: auto;
-    padding: 0rem 0rem;
-    max-width: 23rem;
-    z-index: 12;
-    font-size: 1.5rem; 
-    letter-spacing: 0rem;
+.card {
     position: relative;
-    top: 55rem;
-    color: #1b264f;
+    z-index: 40;
+    box-shadow: 0;
+    outline: 3px;
+    top: 140rem;
 }
-
 h3 {
     font-family: 'ButlerMedium', sans-serif;
     margin: 0rem;
+}
 
-}
-.exomockup {
-    position: relative;
-    z-index: 13;
-    margin: auto;
-    top: 2rem;
-    
-}
 
 a:link {
     color: #cad0e3;
