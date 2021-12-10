@@ -32,6 +32,19 @@ hr {
 .nebulaimg {
     margin: auto;
     max-width: 375px;
-    width: 100%
+    width: 100%;
+    text-align: center;
+}
 
+h1 {
+    font-family:Georgia, Times, serif;
+    margin-left: 1rem;
+}
+.scope {
+    inline-size: 14rem;
+    font-size: .8rem;
+    overflow-wrap: break-word; 
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 1rem;
 }
