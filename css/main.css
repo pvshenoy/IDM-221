@@ -10,13 +10,6 @@
     src: url(/../graphics/Metropolis/Metropolis-ExtraLight.woff2)
 }
 
-/*
-.wrapper {
-    max-width: 414px;
-    margin: 0rem;
-    margin-right: 0rem;
-}
-*/
 
 body {
     background-image: url(../images/backgroundelements/backgroundextended.png);
@@ -382,15 +375,15 @@ h3 {
     margin-bottom: 1rem;
 }
 a.menubar:link {
-    color: #1b264f
+    color: #1b264f;
   }
 
 a.menubar:visited {
-  color: #dd92a0
+  color: #dd92a0;
 }
 
 a.menubar:hover {
-    color: #576ca8
+    color: #576ca8;
   }
 
 a.menubar:active {
