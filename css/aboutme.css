@@ -1,0 +1,122 @@
+@import 'normalize.css';
+
+@font-face {
+    font-family: 'ButlerMedium';
+    src: url(../graphics/Butler/Butler_Bold.otf)
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url(/../graphics/Metropolis/Metropolis-ExtraLight.woff2)
+}
+
+.navbar {
+    color: white;
+    position: relative;
+    top: 0rem;
+    right: .3rem;
+    padding: 1rem;
+    text-align: right;
+    z-index: 1000;
+}
+
+hr {  
+    border: .04rem solid #1b264f;
+    margin: 0rem 0rem 0rem 0rem; 
+    padding-right: 0rem;
+    position: relative;
+    left: 0rem;
+    z-index: 999;
+}
+
+.nebulaimg {
+    margin: auto;
+    max-width: 375px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family:Georgia, Times, serif;
+    margin-left: 1rem;
+}.footerbreak {
+    border: .04rem solid #1b264f;
+    margin: 0rem 0rem 0rem 0rem; 
+    padding-right: 0rem;
+    position: relative;
+    left: 0rem;
+    z-index: 80;
+    top: 34.3rem;
+}
+.card3 {
+    width: 100%;
+    max-width: 21.875rem;
+    width: 329.1px;
+    height: 253px;
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 40;
+    top: 36.3rem;
+    box-sizing: border-box;
+}
+
+footer {
+    position: relative;
+    height: 500px;
+    width: 329px;
+    text-align: center;
+}
+.menubar {
+    position: relative;
+    top: -3.5rem;
+    z-index: 100;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2rem;
+    padding: 1rem;
+  }
+
+ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border: 1px solid #1b264f;
+}
+
+h3 {
+    position: relative;
+    top: -7rem;
+    font-size: 3rem;
+    font-family: serif;
+    color:#1b264f
+}
+
+.contact {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: -8rem;
+    margin-bottom: 1rem;
+}
+a.menubar:link {
+    color: #1b264f;
+  }
+
+a.menubar:visited {
+  color: #dd92a0;
+}
+
+a.menubar:hover {
+    color: #576ca8;
+  }
+
+a.menubar:active {
+    color:#dd92a0;
+}
