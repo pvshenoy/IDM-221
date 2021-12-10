@@ -7,16 +7,15 @@
 
 @font-face {
     font-family: 'Metropolis';
-    src: url('/Users/preetishenoy/Documents/GitHub/IDM-221/graphics/Metropolis/Metropolis-Light.woff2')
+    src: url('/Users/preetishenoy/Documents/GitHub/IDM-221/graphics/Metropolis/Metropolis-ExtraLight.woff2')
 }
-/*
+
 .wrapper {
     max-width: 414px;
     margin: 0rem;
     margin-right: 0rem;
-    overflow: hidden;
 }
-*/
+
 
 .p {
     font-family: 'Metropolis' sans-serif;
@@ -50,10 +49,16 @@ h1 {
     color:#1b264f;
     z-index: 1;
     overflow-wrap: break-word;
-    position:relative;
+    position:absolute;
 }
 
+.uxdesigner {
+    padding: 0rem;
+    margin-top: .4rem;
+}
 .openingpara {
+    position: absolute;
+    top: 10.8rem;
     margin: 0rem 1rem;
     padding: 0rem 0rem;
     border: 0rem 0rem;
@@ -76,12 +81,19 @@ h1 {
     z-index: 20;
     border-radius: 20px;
 }
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
 .button2 {
     background-color: #576ca8;
     color: #cad0e3;
     font-size: .9rem;
     padding: .7rem .7rem;
-    margin: 13rem 15.2rem; 
+    margin-top: 26rem;
+    margin-left: 15.2rem; 
     border: none;
     text-align: center; 
     white-space: nowrap;
@@ -95,7 +107,8 @@ h1 {
     color: #cad0e3;
     font-size: .9rem;
     padding: .7rem .7rem;
-    margin: 2.5rem 1rem; 
+    margin-top: 15.5rem;
+    margin-left: 1rem; 
     border: none;
     text-align: center; 
     white-space: nowrap;
@@ -157,7 +170,7 @@ h1 {
     border: 1px solid #1b264f;
     position: relative;
     z-index: 40;
-    top:15rem;
+    top:15.5rem;
     box-sizing: border-box;
 }
 
@@ -209,8 +222,7 @@ h1 {
     padding: 0rem;
 } 
 .arrowbutton {
-    background-color: #ffffff;
-    z-index: 39;
+    z-index: 44;
     max-width: 100%;
     position: relative;
     text-align: center;
@@ -225,7 +237,7 @@ h1 {
     position: relative;
     z-index: 60;
     text-align: center;
-    top: -4rem;
+    top: -4.3rem;
     padding: 0rem 0rem 0rem 0rem;
 }
 
@@ -263,9 +275,9 @@ h1 {
     border: 0rem;
     padding: 0rem;
 } 
+
 .arrowbutton2 {
-    background-color: #ffffff;
-    z-index: 38;
+    z-index: 44;
     max-width: 100%;
     position: relative;
     text-align: center;
@@ -287,24 +299,6 @@ h3 {
     margin: 0rem;
 }
 
-
-a:link {
-    color: #cad0e3;
-    text-decoration: none;
-    font-family: 'metropolis' sans-serif;
-}
-
-a:visited {
-    color: #cad0e3;
-    text-decoration: none;
-    font-family: 'metropolis' sans-serif;
-}
-
-a:hover {
-    color:#cad0e3;
-    text-decoration: none;
-    font-family: 'metropolis' sans-serif;
-}
 .background {
     position: absolute;
     z-index: -1;
